@@ -1,5 +1,7 @@
 # [my-portfolio](https://ibilalkayy.herokuapp.com/)
 
+![Screenshot 2021-10-30 at 21-29-21 Bilal Khan](https://user-images.githubusercontent.com/64713734/139542036-27755020-e953-408f-8750-abf512702e0e.png)
+
 ## Intro
 This repository contains the code of my portfolio website. It contains five pages that are Home, About, Resume, Portfolio, and Contact. The template of this app is taken from [bootstrapmademe.com](https://bootstrapmade.com/free-html-bootstrap-template-my-resume/) that is available for free to use.
 
