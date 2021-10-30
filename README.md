@@ -9,13 +9,13 @@ This repository contains the code of my portfolio website. It contains five page
 
 This software is written in Golang, HTML, CSS, and JavaScript. The directory structure is based on **MVC model**. The software contains six directories in which Go code, Database, and website template is written separately. These directories are.
 
-- **controllers**: This directory contains one file. `controllers.go`. This file handle the main functionality of different pages like executing the template, sending an email using SMTP.
+- **controllers**: This directory contains one file `controllers.go`. This file handles the main functionality of different functions like executing the template, sending an email using SMTP.
     
-- **database**: This directory contains one file, `db.go`. This file contains the code of a MySQL database that will connect, and insert the data.
+- **database**: This directory contains one file `db.go`. This file contains the code of a MySQL database that will connect, and insert the data.
     
-- **middleware**: This directory has one file `middleware.go`. It handles the errors in a function and it works on a function to to call the values from .env file based on a key.
+- **middleware**: This directory has one file `middleware.go`. It handles the errors in a function and it works on a function to call the values from .env file based on a key.
    
-- **models**: This directory has one file `models.go`. It contains a structure which has the user credentials.
+- **models**: This directory has one file `models.go`. It contains a structure which has the name, email, subject and body to be used.
 
 - **routes**: This directory has one file `routes.go`. It handles the paths that should be visited and uses middleware to check for errors.
 
